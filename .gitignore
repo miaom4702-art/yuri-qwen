@@ -1,0 +1,9 @@
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/

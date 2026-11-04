@@ -1,0 +1,45 @@
+yuri-qwen
+Copyright 2026 miaom4702-art
+
+This product includes material derived from the Qwen2.5 project.
+
+Base model
+----------
+Name:    Qwen2.5-7B-Instruct (distributed via Ollama as qwen2.5:7b)
+Copyright: Copyright © Alibaba Cloud
+License: Apache License 2.0
+Source:  https://github.com/QwenLM/Qwen2.5
+
+Modifications
+-------------
+The Modelfile in this repository does not modify model weights. It adds:
+  - a system prompt describing a Chinese-language Japanese yuri light-novel
+    writing style (see SYSTEM.md and the SYSTEM block in Modelfile);
+  - sampling parameters (temperature, top_p, top_k, repeat_penalty, num_ctx).
+
+The resulting local model is named "yuri-qwen" and remains subject to the
+Apache License 2.0.
+
+Training material disclosure
+----------------------------
+The writing-style rules were distilled from style analysis of Chinese
+translations of the following Japanese yuri light novels:
+
+  - 《安达与岛村》 by 入间人间 (Hitoma Iruma)
+  - 《我的初恋对象与人接吻了》 by 入间人间 (Hitoma Iruma)
+  - 《人妻教师与班上女高中生陷入爱恋》 by 入间人间 (Hitoma Iruma)
+  - 《我买下了与她的每周密会～以五千圆为借口，共度两人时光～》
+    (also translated as 《一周一次买下同班同学的那些事》)
+
+The original novel texts are NOT included in and are NOT distributed with
+this repository. Copyright in those works belongs to their respective
+authors, translators, publishers, and other rights holders. This project
+only abstracts general writing techniques and stylistic features.
+
+No affiliation or endorsement
+-----------------------------
+This project is not affiliated with, sponsored by, or endorsed by Alibaba
+Cloud, the Qwen team, or the authors, translators, or publishers of the
+novels listed above.
+
+Full license text: see LICENSE (Apache License 2.0).
